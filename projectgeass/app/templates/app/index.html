@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+   
+    <table>
+         {% for post in posts %}
+         <tr>{{post.title}}</tr>
+         <p>: </p>
+         <tr>{{post.text}}</tr>
+         <br>
+         {% endfor %}
+    </table>
+</body>
+</html>
